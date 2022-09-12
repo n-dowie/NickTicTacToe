@@ -1,0 +1,106 @@
+
+.grid {
+    display: table-cell;
+    width: 75px;
+    height: 75px;
+    border: 1px solid #5E5DF0;
+    text-align: center;
+    vertical-align: middle;
+    font-family: Sans-serif, "Verdana";
+    font-size: 40px;
+  }
+
+  .table {
+    display: table;
+    border: 1px solid;
+    border-color: #5E5DF0;
+    text-shadow: 3px 3px 1px grey;
+    cursor: pointer;
+    background-color:#eee;
+  }
+
+  .row {
+    display: table-row;
+    border-color: #5E5DF0;
+    
+  }
+
+  h1  {
+    font-family: sans-serif, Verdana;
+    text-decoration: underline;
+    text-align: left;
+  }
+  
+  .button1{
+    background: #5E5DF0;
+    border-radius: 999px;
+    box-shadow: #5E5DF0 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    width: fit-content;
+    word-break: break-word;
+    border: 0
+
+  }
+
+.button1:hover {
+	background-color: var(--color-set);
+	color: #5E5DF0;
+	border-color: #5E5DF0;
+}
+
+.text  {
+  font-family: sans-serif, Verdana;
+}
+
+table  {
+  max-width: 150%;
+  text-align: center;
+  vertical-align: middle;
+  font-family: Sans-serif, "Verdana";
+  border-style: dashed;
+}
+
+tr :nth-child(odd)  {
+  background-color: #eee;
+
+}
+
+th  {
+  background-color: #888;
+  text-align: center;
+  vertical-align: middle;
+  font-family: Sans-serif, "Verdana";
+}   
+
+.win  {
+  display: table;
+  vertical-align: middle;
+  font-family: Sans-serif, "Verdana";
+  border-style:dashed;
+  border-color: #888;
+  background-color: #eee;
+  text-align: center;
+  line-height: 24px;
+  min-width: 227px;
+}
+
+.turn  {
+  display: table;
+  vertical-align: middle;
+  font-family: Sans-serif, "Verdana";
+  border-style:dashed;
+  border-color: #888;
+  background-color: #eee;
+  text-align: center;
+  line-height: 24px;
+  min-width: 227px;
+}
